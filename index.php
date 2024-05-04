@@ -1,5 +1,4 @@
 <?php
-$heading = "Dashboard";
-require("views/index.view.php");
 
-echo $_SERVER;
+require 'functions.php';
+require "router.php";
